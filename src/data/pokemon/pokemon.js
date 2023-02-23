@@ -1,12 +1,12 @@
 export default {
   "pokemon": [{
     "num": "001",
-    "name": "bulbasaur",
+    "name": "Bulbasaur",
     "generation": {
       "num": "generation i",
       "name": "kanto"
     },
-    "about": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    "about": "Bulbasaur é um Pokémon do Tipo grama/veneno",
     "img": "https://www.serebii.net/pokemongo/pokemon/001.png",
     "size": {
       "height": "0.71 m",
@@ -15,7 +15,7 @@ export default {
     "pokemon-rarity": "normal",
     "type": [
       "grass",
-      "poison"
+      "poison"    
     ],
     "encounter": {
       "base-flee-rate": "0.1",
@@ -99,7 +99,7 @@ export default {
   },
   {
     "num": "002",
-    "name": "ivysaur",
+    "name": "Ivysaur",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -197,7 +197,7 @@ export default {
   },
   {
     "num": "003",
-    "name": "venusaur",
+    "name": "Venusaur",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -295,7 +295,7 @@ export default {
   },
   {
     "num": "004",
-    "name": "charmander",
+    "name": "Charmander",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -391,7 +391,7 @@ export default {
   },
   {
     "num": "005",
-    "name": "charmeleon",
+    "name": "Charmeleon",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -494,7 +494,7 @@ export default {
   },
   {
     "num": "006",
-    "name": "charizard",
+    "name": "Charizard",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -612,7 +612,7 @@ export default {
   },
   {
     "num": "007",
-    "name": "squirtle",
+    "name": "Squirtle",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -706,7 +706,7 @@ export default {
   },
   {
     "num": "008",
-    "name": "wartortle",
+    "name": "Wartortle",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -800,7 +800,7 @@ export default {
   },
   {
     "num": "009",
-    "name": "blastoise",
+    "name": "Blastoise",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -894,7 +894,7 @@ export default {
   },
   {
     "num": "010",
-    "name": "caterpie",
+    "name": "Caterpie",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -973,7 +973,7 @@ export default {
   },
   {
     "num": "011",
-    "name": "metapod",
+    "name": "Metapod",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1052,7 +1052,7 @@ export default {
   },
   {
     "num": "012",
-    "name": "butterfree",
+    "name": "Butterfree",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1157,7 +1157,7 @@ export default {
   },
   {
     "num": "013",
-    "name": "weedle",
+    "name": "Weedle",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1240,7 +1240,7 @@ export default {
   },
   {
     "num": "014",
-    "name": "kakuna",
+    "name": "Kakuna",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1323,7 +1323,7 @@ export default {
   },
   {
     "num": "015",
-    "name": "beedrill",
+    "name": "Beedrill",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1428,7 +1428,7 @@ export default {
   },
   {
     "num": "016",
-    "name": "pidgey",
+    "name": "Pidgey",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1523,7 +1523,7 @@ export default {
   },
   {
     "num": "017",
-    "name": "pidgeotto",
+    "name": "Pidgeotto",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1618,7 +1618,7 @@ export default {
   },
   {
     "num": "018",
-    "name": "pidgeot",
+    "name": "Pidgeot",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1727,7 +1727,7 @@ export default {
   },
   {
     "num": "019",
-    "name": "rattata",
+    "name": "Rattata",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1812,7 +1812,7 @@ export default {
   },
   {
     "num": "020",
-    "name": "raticate",
+    "name": "Raticate",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1897,7 +1897,7 @@ export default {
   },
   {
     "num": "021",
-    "name": "spearow",
+    "name": "Spearow",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -1994,7 +1994,7 @@ export default {
   },
   {
     "num": "022",
-    "name": "fearow",
+    "name": "Fearow",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2091,7 +2091,7 @@ export default {
   },
   {
     "num": "023",
-    "name": "ekans",
+    "name": "Ekans",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2188,7 +2188,7 @@ export default {
   },
   {
     "num": "024",
-    "name": "arbok",
+    "name": "Arbok",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2278,7 +2278,7 @@ export default {
   },
   {
     "num": "025",
-    "name": "pikachu",
+    "name": "Pikachu",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2377,7 +2377,7 @@ export default {
   },
   {
     "num": "026",
-    "name": "raichu",
+    "name": "Raichu",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2483,7 +2483,7 @@ export default {
   },
   {
     "num": "027",
-    "name": "sandshrew",
+    "name": "Sandshrew",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2579,7 +2579,7 @@ export default {
   },
   {
     "num": "028",
-    "name": "sandslash",
+    "name": "Sandslash",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2668,7 +2668,7 @@ export default {
   },
   {
     "num": "029",
-    "name": "nidoran ♀ (female)",
+    "name": "Nidoran ♀ (female)",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2763,7 +2763,7 @@ export default {
   },
   {
     "num": "030",
-    "name": "nidorina",
+    "name": "Nidorina",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2858,7 +2858,7 @@ export default {
   },
   {
     "num": "031",
-    "name": "nidoqueen",
+    "name": "Nidoqueen",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -2956,7 +2956,7 @@ export default {
   },
   {
     "num": "032",
-    "name": "nidoran ♂ (male)",
+    "name": "Nidoran ♂ (male)",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3051,7 +3051,7 @@ export default {
   },
   {
     "num": "033",
-    "name": "nidorino",
+    "name": "Nidorino",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3146,7 +3146,7 @@ export default {
   },
   {
     "num": "034",
-    "name": "nidoking",
+    "name": "Nidoking",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3251,7 +3251,7 @@ export default {
   },
   {
     "num": "035",
-    "name": "clefairy",
+    "name": "Clefairy",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3344,7 +3344,7 @@ export default {
   },
   {
     "num": "036",
-    "name": "clefable",
+    "name": "Clefable",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3444,7 +3444,7 @@ export default {
   },
   {
     "num": "037",
-    "name": "vulpix",
+    "name": "Vulpix",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3535,7 +3535,7 @@ export default {
   },
   {
     "num": "038",
-    "name": "ninetales",
+    "name": "Ninetales",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3647,7 +3647,7 @@ export default {
   },
   {
     "num": "039",
-    "name": "jigglypuff",
+    "name": "Jigglypuff",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3754,7 +3754,7 @@ export default {
   },
   {
     "num": "040",
-    "name": "wigglytuff",
+    "name": "Wigglytuff",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3847,7 +3847,7 @@ export default {
   },
   {
     "num": "041",
-    "name": "zubat",
+    "name": "Zubat",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -3952,7 +3952,7 @@ export default {
   },
   {
     "num": "042",
-    "name": "golbat",
+    "name": "Golbat",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4056,7 +4056,7 @@ export default {
   },
   {
     "num": "043",
-    "name": "oddish",
+    "name": "Oddish",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4165,7 +4165,7 @@ export default {
   },
   {
     "num": "044",
-    "name": "gloom",
+    "name": "Gloom",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4257,7 +4257,7 @@ export default {
         },
         {
           "num": "182",
-          "name": "bellossom",
+          "name": "Bellossom",
           "candy-cost": "100",
           "evolution-item": {
             "name": "sun stone",
@@ -4274,7 +4274,7 @@ export default {
   },
   {
     "num": "045",
-    "name": "vileplume",
+    "name": "Vileplume",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4372,7 +4372,7 @@ export default {
   },
   {
     "num": "046",
-    "name": "paras",
+    "name": "Paras",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4467,7 +4467,7 @@ export default {
   },
   {
     "num": "047",
-    "name": "parasect",
+    "name": "Parasect",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4569,7 +4569,7 @@ export default {
   },
   {
     "num": "048",
-    "name": "venonat",
+    "name": "Venonat",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4662,7 +4662,7 @@ export default {
   },
   {
     "num": "049",
-    "name": "venomoth",
+    "name": "Venomoth",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4769,7 +4769,7 @@ export default {
   },
   {
     "num": "050",
-    "name": "diglett",
+    "name": "Diglett",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4865,7 +4865,7 @@ export default {
   },
   {
     "num": "051",
-    "name": "dugtrio",
+    "name": "Dugtrio",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -4961,7 +4961,7 @@ export default {
   },
   {
     "num": "052",
-    "name": "meowth",
+    "name": "Meowth",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5053,7 +5053,7 @@ export default {
   },
   {
     "num": "053",
-    "name": "persian",
+    "name": "Persian",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5145,7 +5145,7 @@ export default {
   },
   {
     "num": "054",
-    "name": "psyduck",
+    "name": "Psyduck",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5234,7 +5234,7 @@ export default {
   },
   {
     "num": "055",
-    "name": "golduck",
+    "name": "Golduck",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5323,7 +5323,7 @@ export default {
   },
   {
     "num": "056",
-    "name": "mankey",
+    "name": "Mankey",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5412,7 +5412,7 @@ export default {
   },
   {
     "num": "057",
-    "name": "primeape",
+    "name": "Primeape",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5515,7 +5515,7 @@ export default {
   },
   {
     "num": "058",
-    "name": "growlithe",
+    "name": "Growlithe",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5606,7 +5606,7 @@ export default {
   },
   {
     "num": "059",
-    "name": "arcanine",
+    "name": "Arcanine",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5718,7 +5718,7 @@ export default {
   },
   {
     "num": "060",
-    "name": "poliwag",
+    "name": "Poliwag",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5805,12 +5805,12 @@ export default {
         "next-evolution": [
           {
             "num": "062",
-            "name": "poliwrath",
+            "name": "Poliwrath",
             "candy-cost": "100"
           },
           {
             "num": "186",
-            "name": "politoed",
+            "name": "Politoed",
             "candy-cost": "100",
             "evolution-item": {
               "name": "kings rock",
@@ -5823,7 +5823,7 @@ export default {
   },
   {
     "num": "061",
-    "name": "poliwhirl",
+    "name": "Poliwhirl",
     "generation": {
       "num": "generation i",
       "name": "kanto"
@@ -5918,10 +5918,10 @@ export default {
         },
         {
           "num": "186",
-          "name": "politoed",
+          "name": "Politoed",
           "candy-cost": "100",
           "evolution-item": {
-            "name": "kings rock",
+            "name": "Kings Rock",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
           }
         }
@@ -23849,7 +23849,7 @@ export default {
         "move-duration-seg": "4.2"
       },
       {
-        "name": "solar beam",
+        "name": "Solar Beam",
         "type": "grass",
         "base-damage": "180",
         "energy": "-100",
@@ -23867,7 +23867,7 @@ export default {
     "name": "celebi",
     "generation": {
       "num": "generation ii",
-      "name": "johto"
+      "name": "Johto"
     },
     "about": "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
     "img": "https://www.serebii.net/pokemongo/pokemon/251.png",
@@ -23907,14 +23907,14 @@ export default {
     ],
     "quick-move": [
       {
-        "name": "confusion",
+        "name": "Confusion",
         "type": "psychic",
         "base-damage": "20",
         "energy": "15",
         "move-duration-seg": "1.6"
       },
       {
-        "name": "charge beam",
+        "name": "Charge Beam",
         "type": "electric",
         "base-damage": "8",
         "energy": "15",
@@ -23923,21 +23923,21 @@ export default {
     ],
     "special-attack": [
       {
-        "name": "hyper beam",
+        "name": "Hyper Beam",
         "type": "normal",
         "base-damage": "150",
         "energy": "-100",
         "move-duration-seg": "3.8"
       },
       {
-        "name": "psychic",
+        "name": "Psychic",
         "type": "psychic",
         "base-damage": "100",
         "energy": "-100",
         "move-duration-seg": "2.8"
       },
       {
-        "name": "dazzling gleam",
+        "name": "Dazzling gleam",
         "type": "fairy",
         "base-damage": "100",
         "energy": "-50",

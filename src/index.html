@@ -3,25 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
   </head>
   <header>
-    <h1>POKECARD </h1>
+    <center>
+    <img src="./img/logoPokemon.png" width="400px">
+  </center>
+  </header>
     <body>
-      <section id="home-video">
-        <video id="video" autoplay muted loop>
-          <source src="./img/AberturaPokemon.mp4"/>
-        </video>
-      <audio src="./music/mp3pokemon.mp3" autoplay controls loop>
-      </audio>
-       </section>
+        <section id="audio">
+          <audio src="./music/mp3pokemon.mp3" autoplay controls loop>
+          </audio>
+        </section>
+      <p>A palavra pokémon é a combinação de duas palavras em inglês: pocket, que significa bolso; e monster, que significa monstro. Assim, um pokémon é um "monstro de bolso".</p>
 
       <select id="sort-menu">
-        <option value="sort" selected> Ordem (Crescente - Decrescente)</option>
+        <option value="sort" selected> Ordem Crescente - Decrescente</option>
         <option value="az">A-Z</option>
         <option value="za">Z-A</option>
       </select>
 
-      <select id="selected-letter" class="alphabetical-order">
+      <select id="select-letter" class="alphabetical-order">
         <option value="select-letter" selected>Ordem Alfabética</option>
         <option value="A">A</option>
         <option value="B">B</option>
@@ -54,27 +58,30 @@
       <select id="type-menu" class="pokemon-type">
         <option value="type" selected>Tipos Pokemon</option>
         <option value="Normal">Normal</option>
-        <option value="Fire">Fogo</option>
-        <option value="Water">Água</option>
-        <option value="Electric">Elétrico</option>
-        <option value="Grass">Grama</option>
-        <option value="Ice">Gelo</option>
-        <option value="Fighting">Lutador</option>
-        <option value="Poison">Venenoso</option>
-        <option value="Ground">Terra</option>
-        <option value="Flying">Voador</option>
-        <option value="Fairy">Fada</option>
-        <option value="Psychic">Psíquico</option>
-        <option value="Bug">Inseto</option>
-        <option value="Rock">Pedra</option>
-        <option value="Ghost">Fantasma</option>
-        <option value="Dragon">Dragão</option>
+        <option value="Fogo">Fogo</option>
+        <option value="Agua">Água</option>
+        <option value="Eletrico">Elétrico</option>
+        <option value="Grama">Grama</option>
+        <option value="Gelo">Gelo</option>
+        <option value="Lutador">Lutador</option>
+        <option value="Venenoso">Venenoso</option>
+        <option value="Terra">Terra</option>
+        <option value="Voador">Voador</option>
+        <option value="Fada">Fada</option>
+        <option value="Psiquico">Psíquico</option>
+        <option value="Inseto">Inseto</option>
+        <option value="Pedra">Pedra</option>
+        <option value="Fantasma">Fantasma</option>
+        <option value="Dragao">Dragão</option>
       </select>
 
+      <section id="paint-template">
 
-    <link rel="stylesheet" href="style.css" />
-</header>
     <div id="root"></div>
+
+    <script src="src/data/pokemon/pokemon.js"></script>
     <script src="main.js" type="module"></script>
+
+    <footer> <h5> Desenvolvido por Tamires e Katia, 2023. © </h5> </footer>
   </body>
 </html>

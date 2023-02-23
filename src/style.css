@@ -1,6 +1,83 @@
+
+body {
+    width: 100%;
+    font-weight:bold;
+    font-family: Niramit, sans-serif;
+    font-size: 1.2rem;
+    background-position: 0%; 
+    background-image: url(https://images4.alphacoders.com/574/thumb-1920-574726.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0 
+
+}
 div {
     width: 160px;
     height: 160px;
     display: inline-block;
-    margin:auto
+    margin:auto;
+    font-size:medium;
+}
+
+.template-holder-character {
+    perspective: 600px;
+}
+
+.template-holder-character,
+.card {
+    margin: 2px;
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .3s linear;
+}
+
+.card .front,
+.card .back {
+    margin: 15px;
+    padding: 20px;
+    backface-visibility: hidden;
+}
+
+.card .front {
+    background-image: url(img/fondovarita.jpg);
+    color: #000000;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #e1cb27;
+}
+
+.card .back {
+    background-image: url(img/3.jpg);
+    color: #050505;
+    margin: 1px;
+    padding: 30px;
+    text-align: left;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: hsl(53, 93%, 59%);
+
+}
+
+.card .back {
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+}
+
+.template-holder-character:hover .card {
+    transform: rotateY(180deg);
+}
+
+audio { 
+    display: inline-block;
+    position: center;
+
 }

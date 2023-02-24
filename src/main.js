@@ -4,7 +4,7 @@ import {todos} from './data.js';
 const pokemons = todos(data);
 
 const dataforCharacter = (pokemon) => {
-  const template = document.createElement('article');
+  const template = document.createElement('fixed');
   template.className = 'template-holder-character';
   template.innerHTML = `
     <div class="card">
@@ -13,7 +13,7 @@ const dataforCharacter = (pokemon) => {
             <div class ="imagens"><img src=${pokemon.img}></div>
         </div>
         <div class="back">
-            <p>${pokemon.about}</p>
+            <p>${pokemon.type}</p>
         </div>
     </div>`;
   return template;

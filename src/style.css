@@ -19,19 +19,30 @@ div {
     font-size:medium;
 }
 
+#top-nav {
+    display: inline;
+    display: block;
+    color: rgb(42, 40, 40);
+    text-align: center;
+    position: center;
+   
+
+}
+
 .template-holder-character {
-    perspective: 600px;
+    perspective: 300px;
 }
 
 .template-holder-character,
 .card {
-    margin: 2px;
+    margin: 1px;
 }
 
 .card {
     position: relative;
-    transform-style: preserve-3d;
+    transform-style:preserve-3d;
     transition: transform .3s linear;
+
 }
 
 .card .front,
@@ -42,32 +53,27 @@ div {
 }
 
 .card .front {
-    background-image: url(img/fondovarita.jpg);
+    background-image: url(img/card1.png);
     color: #000000;
     margin: 15px;
     padding: 20px;
     text-align: center;
     border-radius: 9px;
     border-style: solid;
-    border-color: #e1cb27;
+    border-color: #f0d71a;
 }
 
 .card .back {
-    background-image: url(img/3.jpg);
+    background-image: url(img/verso.jpg);
     color: #050505;
-    margin: 1px;
-    padding: 30px;
-    text-align: left;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 9px;
-    border-style: solid;
-    border-color: hsl(53, 93%, 59%);
+    margin: 15px;
+    padding: 20px;
+
 
 }
 
 .card .back {
-    position: absolute;
+    position: fixed;
     top: 0;
     transform: rotateY(180deg);
 }

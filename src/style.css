@@ -1,85 +1,28 @@
-
 body {
-    width: 100%;
     font-weight:bold;
-    font-family: Niramit, sans-serif;
-    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-position: 0%; 
     background-image: url(https://images4.alphacoders.com/574/thumb-1920-574726.jpg);
     background-size: 100%;
     background-attachment: fixed;
-    margin: 0 
+    margin: 0; 
 
 }
+
 div {
-    width: 160px;
-    height: 160px;
-    display: inline-block;
-    margin:auto;
-    font-size:medium;
-}
+ 
+    display:inline-block;
+    margin:auto; 
 
-#top-nav {
-    display: inline;
-    display: block;
-    color: rgb(42, 40, 40);
-    text-align: center;
-    position: center;
-   
-
-}
-
-.template-holder-character {
-    perspective: 300px;
-}
-
-.template-holder-character,
-.card {
-    margin: 1px;
-}
-
-.card {
-    position: relative;
-    transform-style:preserve-3d;
-    transition: transform .3s linear;
-
-}
-
-.card .front,
-.card .back {
-    margin: 15px;
-    padding: 20px;
-    backface-visibility: hidden;
 }
 
 .card .front {
-    background-image: url(img/card1.png);
-    color: #000000;
-    margin: 15px;
-    padding: 20px;
+    background-image: url(https://www.nicepng.com/png/full/230-2302370_magnificent-blank-pokemon-card-template-elaboration-blank-pokemon.png);
     text-align: center;
-    border-radius: 9px;
+    border-radius: 10px;
     border-style: solid;
-    border-color: #f0d71a;
-}
-
-.card .back {
-    background-image: url(img/verso.jpg);
-    color: #050505;
-    margin: 15px;
-    padding: 20px;
-
-
-}
-
-.card .back {
-    position: fixed;
-    top: 0;
-    transform: rotateY(180deg);
-}
-
-.template-holder-character:hover .card {
-    transform: rotateY(180deg);
+    width: 60;
+    height: 60%;
 }
 
 audio { 

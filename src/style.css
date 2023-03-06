@@ -1,3 +1,17 @@
+#audio {
+    text-align: center;
+}
+
+#home-video {
+    text-align: center;
+}
+
+.bg_video {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+}
+
 body {
     width: 100%;
     font-weight: bold;
@@ -26,7 +40,12 @@ div {
     position: center;
 }
 
+.select {
+    text-align: center;
+}
+
 .select-nav {
+    text-align: center;
     background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) no-repeat #354880;
     /* Imagem de fundo (Seta) */
     background-position: 205px center;
@@ -104,7 +123,7 @@ div {
     margin: 15px;
     padding: 20px;
     text-align: left;
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 9px;
     border-style: solid;
 }

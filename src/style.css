@@ -1,22 +1,21 @@
-
 body {
     width: 100%;
-    font-weight:bold;
+    font-weight: bold;
     font-family: Niramit, sans-serif;
     font-size: 1.2rem;
-    background-position: 0%; 
+    background-position: 0%;
     background-image: url(https://images4.alphacoders.com/574/thumb-1920-574726.jpg);
     background-size: 100%;
     background-attachment: fixed;
-    margin: 0 
-
+    margin: 0
 }
+
 div {
     width: 160px;
     height: 160px;
     display: inline-block;
-    margin:auto;
-    font-size:medium;
+    margin: auto;
+    font-size: medium;
 }
 
 #top-nav {
@@ -25,22 +24,57 @@ div {
     color: rgb(42, 40, 40);
     text-align: center;
     position: center;
-   
+}
+
+.select-nav {
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) no-repeat #354880;
+    /* Imagem de fundo (Seta) */
+    background-position: 205px center;
+    /*Posição da imagem do background*/
+    width: 270px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 48px;
+    /* altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte do Select */
+    font-size: 18px;
+    /* Tamanho da Fonte */
+    padding: 13px 20px 13px 12px;
+    /* Configurações de padding para posicionar o texto no campo */
+    color: #fff;
+    /* Cor da Fonte */
+    text-indent: 0.01px;
+    /* Remove seta padrão do FireFox */
+    text-overflow: "";
 
 }
 
+#paint-template {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.images {
+    width: 90px;
+    height: 90px;
+}
+
 .template-holder-character {
-    perspective: 300px;
+    perspective: 600px;
 }
 
 .template-holder-character,
 .card {
-    margin: 1px;
+    margin: 20px;
+    height: 300px;
 }
 
 .card {
     position: relative;
-    transform-style:preserve-3d;
+    transform-style: preserve-3d;
     transition: transform .3s linear;
 
 }
@@ -49,27 +83,30 @@ div {
 .card .back {
     margin: 15px;
     padding: 20px;
+    height: 300px;
     backface-visibility: hidden;
 }
 
 .card .front {
-    background-image: url(img/card1.png);
+    background-color: rgb(144, 90, 195);
     color: #000000;
     margin: 15px;
     padding: 20px;
     text-align: center;
     border-radius: 9px;
     border-style: solid;
-    border-color: #f0d71a;
+    border-color: #0c0207;
 }
 
 .card .back {
-    background-image: url(img/verso.jpg);
+    background-color: rgb(214, 177, 249);
     color: #050505;
     margin: 15px;
     padding: 20px;
-
-
+    text-align: left;
+    font-size: 10px;
+    border-radius: 9px;
+    border-style: solid;
 }
 
 .card .back {
@@ -82,7 +119,7 @@ div {
     transform: rotateY(180deg);
 }
 
-audio { 
+audio {
     display: inline-block;
     position: center;
 

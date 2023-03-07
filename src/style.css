@@ -7,8 +7,22 @@ body {
     background-image: url(https://images4.alphacoders.com/574/thumb-1920-574726.jpg);
     background-size: 100%;
     background-attachment: fixed;
-    margin: 0
-    
+}
+
+#logo {
+    height: 150px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+#gif {
+    text-align: center;
+}
+
+#audio {
+    text-align: center;
 }
 
 div {

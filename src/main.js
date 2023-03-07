@@ -24,9 +24,8 @@ const dataforCharacter = (pokemon) => {
             <li>Peso: ${pokemon.size['weight']}</li>
             <li>Ovo: ${pokemon['egg']}</li>
             <li>Chance de spawn: ${pokemon['spawn-chance']}</li>
-            <li>Resistência: ${pokemon['resistant']}</li>
             <li>Buddy distância Km: ${pokemon['buddy-distance-km']}</li>
-            <li>Fraquezas: ${pokemon['weaknesses']}</li>
+           
         </ul>
 
         </div>

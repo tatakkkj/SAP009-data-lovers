@@ -2,14 +2,13 @@ import data from './data/pokemon/pokemon.js';
 
 
 const todos = (data) => {
-  const resultado = data.pokemon.map((pokemon) => pokemon);
-  return resultado;
+  return data.pokemon.map((pokemon) => pokemon);
 };
 
 const pokemons = todos(data);
 
-export const ordenarPokemons = (sort) => {
-  let tipoOrdenacao = sort.value;
+export const ordenarPokemons = (valorRecebido) => {
+  let tipoOrdenacao = valorRecebido.value;
 
   if (tipoOrdenacao === 'az') {
     return pokemons.sort((a, b) => {

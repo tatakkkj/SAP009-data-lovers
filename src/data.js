@@ -9,7 +9,7 @@ const todos = (data) => {
 const pokemons = todos(data);
 
 export const ordenarPokemons = (sort) => {
-  let tipoOrdenacao = sort.value;
+  const tipoOrdenacao = sort.value;
 
   if (tipoOrdenacao === 'az') {
     return pokemons.sort((a, b) => {
@@ -35,26 +35,26 @@ export const ordenarPokemons = (sort) => {
 };
 
 export const filtrarPorLetra = (letraSelecionada) => {
-  let primeiraLetra = letraSelecionada.value;
+  const primeiraLetra = letraSelecionada.value;
 
-  let pokemonsSelecionados = pokemons.filter((pokemon) => {
+  const pokemonsSelecionados = pokemons.filter((pokemon) => {
     if (pokemon.name[0] === primeiraLetra) {
       return pokemon;
-    };
+    }
   });
   return pokemonsSelecionados;
 };
 
 export const filtrarPorTipo = (tipoSelecionado) => {
-  let tipoPokemon = tipoSelecionado.value;
+  const tipoPokemon = tipoSelecionado.value;
 
-  let pokemonsSelecionados = pokemons.filter((pokemon) => {
-    let tipoFiltro = pokemon.type.filter((tipo) => {
+  const pokemonsSelecionados = pokemons.filter((pokemon) => {
+    const tipoFiltro = pokemon.type.filter((tipo) => {
       return tipo === tipoPokemon;
     });
     if (tipoFiltro.length > 0) {
       return true;
-    };
+    }
   });
   return pokemonsSelecionados;
 }

@@ -1,16 +1,16 @@
 import {ordenarPokemons,filtrarPorLetra,filtrarPorTipo} from './data.js';
 
 const dataPokemon = (data) => {
-    document.querySelector('#paint-template').innerHTML = '';
-    data.map((dataPokemon) => {
-        document.querySelector('#paint-template').appendChild(dataforCharacter(dataPokemon));
-    });
+  document.querySelector('#paint-template').innerHTML = '';
+  data.map((dataPokemon) => {
+    document.querySelector('#paint-template').appendChild(dataforCharacter(dataPokemon));
+  });
 };
 
 const dataforCharacter = (pokemon) => {
-    const template = document.createElement('fixed');
-    template.className = 'template-holder-character';
-    template.innerHTML = `
+  const template = document.createElement('fixed');
+  template.className = 'template-holder-character';
+  template.innerHTML = `
     <div class="card">
         <div class="front">
             <h2>${pokemon.name}</h2>
@@ -24,35 +24,34 @@ const dataforCharacter = (pokemon) => {
             <li>Peso: ${pokemon.size['weight']}</li>
             <li>Ovo: ${pokemon['egg']}</li>
             <li>Chance de spawn: ${pokemon['spawn-chance']}</li>
-            <li>Resistência: ${pokemon['resistant']}</li>
             <li>Buddy distância Km: ${pokemon['buddy-distance-km']}</li>
-            <li>Fraquezas: ${pokemon['weaknesses']}</li>
+        
         </ul>
 
         </div>
     </div>`;
-    return template;
+  return template;
 }
 
 const sort = document.querySelector("#orderAz");
 
 sort.addEventListener('change', () => {
-    let pokemonsSelecionados = ordenarPokemons(sort);
-    dataPokemon(pokemonsSelecionados);
+  const pokemonsSelecionados = ordenarPokemons(sort);
+  dataPokemon(pokemonsSelecionados);
 });
 
 
 const selecionarPorLetra = document.querySelector("#alphabetical-order");
 
 selecionarPorLetra.addEventListener('change', () => {
-    let pokemonsSelecionados = filtrarPorLetra(selecionarPorLetra);
-    dataPokemon(pokemonsSelecionados);
+  const pokemonsSelecionados = filtrarPorLetra(selecionarPorLetra);
+  dataPokemon(pokemonsSelecionados);
 });
 
 const tipoPokemon = document.querySelector("#type-pokemon");
 
 tipoPokemon.addEventListener('change', () => {
-    let pokemonsSelecionados = filtrarPorTipo(tipoPokemon);
-    dataPokemon(pokemonsSelecionados);
+  const pokemonsSelecionados = filtrarPorTipo(tipoPokemon);
+  dataPokemon(pokemonsSelecionados);
 });
 

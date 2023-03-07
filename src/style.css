@@ -8,6 +8,7 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     margin: 0
+    
 }
 
 div {
@@ -27,7 +28,7 @@ div {
 }
 
 .select-nav {
-    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) no-repeat #354880;
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) no-repeat #1638a0;
     /* Imagem de fundo (Seta) */
     background-position: 205px center;
     /*Posição da imagem do background*/

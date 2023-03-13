@@ -8,8 +8,8 @@ const todos = (data) => {
 
 const pokemons = todos(data);
 
-export const ordenarPokemons = (sort) => {
-  const tipoOrdenacao = sort.value;
+export const ordenarPokemons = (valorRecebido) => {
+  const tipoOrdenacao = valorRecebido.value;
 
   if (tipoOrdenacao === 'az') {
     return pokemons.sort((a, b) => {
@@ -57,4 +57,5 @@ export const filtrarPorTipo = (tipoSelecionado) => {
     }
   });
   return pokemonsSelecionados;
+
 }

@@ -1,23 +1,28 @@
-import { example, anotherExample } from '../src/data.js';
+import {filtrarPorTipo} from '../src/data.js';
 
+const bulbasaur = { 
+  "name": "bulbasaur",
+  "type": [
+    "grass",
+    "poison"],
+}
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
+const pikachu = {
+  "name": "pikachu",
+  "type": [
+    "electric"],
+}
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
+const haunter = {
+  "name": "haunter",
+  "type": [
+    "ghost",
+    "poison"],
+}
 
+const pokemons = [bulbasaur, pikachu, haunter]
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
+it ("deve filtrar pokemons por tipo", () => {
+  const resultado = filtrarPorTipo(pokemons,["ghost"])
+  expect (resultado).toEqual([haunter])
 });

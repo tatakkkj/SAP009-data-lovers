@@ -33,6 +33,7 @@ const dataforCharacter = (pokemon) => {
   return template;
 }
 
+
 const sort = document.querySelector("#orderAz");
 
 sort.addEventListener('change', () => {

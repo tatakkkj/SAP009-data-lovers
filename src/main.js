@@ -1,4 +1,7 @@
 import {ordenarPokemons,filtrarPorLetra,filtrarPorTipo} from './data.js';
+import data from './data/pokemon/pokemon.js';
+
+const pokemons = data.pokemon;
 
 const dataPokemon = (data) => {
   document.querySelector('#paint-template').innerHTML = '';
@@ -36,7 +39,7 @@ const dataforCharacter = (pokemon) => {
 const sort = document.querySelector("#orderAz");
 
 sort.addEventListener('change', () => {
-  const pokemonsSelecionados = ordenarPokemons(sort);
+  const pokemonsSelecionados = ordenarPokemons(sort, pokemons);
   dataPokemon(pokemonsSelecionados);
 });
 
@@ -44,14 +47,15 @@ sort.addEventListener('change', () => {
 const selecionarPorLetra = document.querySelector("#alphabetical-order");
 
 selecionarPorLetra.addEventListener('change', () => {
-  const pokemonsSelecionados = filtrarPorLetra(selecionarPorLetra);
+  const pokemonsSelecionados = filtrarPorLetra(selecionarPorLetra, pokemons);
   dataPokemon(pokemonsSelecionados);
 });
 
 const tipoPokemon = document.querySelector("#type-pokemon");
 
 tipoPokemon.addEventListener('change', () => {
-  const pokemonsSelecionados = filtrarPorTipo(tipoPokemon);
+  const pokemonsSelecionados = filtrarPorTipo(tipoPokemon, pokemons);
+
   dataPokemon(pokemonsSelecionados);
 });
 

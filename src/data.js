@@ -1,18 +1,8 @@
-import data from './data/pokemon/pokemon.js';
-
-
-const todos = (data) => {
-  const resultado = data.pokemon.map((pokemon) => pokemon);
-  return resultado;
-};
-
-const pokemons = todos(data);
-
-export const ordenarPokemons = (valorRecebido) => {
+export const ordenarPokemons = (valorRecebido, data) => {
   const tipoOrdenacao = valorRecebido.value;
 
   if (tipoOrdenacao === 'az') {
-    return pokemons.sort((a, b) => {
+    return data.sort((a, b) => {
       if (a.name > b.name) {
         return 1;
       }
@@ -22,7 +12,7 @@ export const ordenarPokemons = (valorRecebido) => {
       return 0;
     });
   } else if (tipoOrdenacao === 'za') {
-    return pokemons.sort((a, b) => {
+    return data.sort((a, b) => {
       if (a.name < b.name) {
         return 1;
       }
@@ -34,10 +24,10 @@ export const ordenarPokemons = (valorRecebido) => {
   }
 };
 
-export const filtrarPorLetra = (letraSelecionada) => {
+export const filtrarPorLetra = (letraSelecionada, data) => {
   const primeiraLetra = letraSelecionada.value;
 
-  const pokemonsSelecionados = pokemons.filter((pokemon) => {
+  const pokemonsSelecionados = data.filter((pokemon) => {
     if (pokemon.name[0] === primeiraLetra) {
       return pokemon;
     }
@@ -45,10 +35,10 @@ export const filtrarPorLetra = (letraSelecionada) => {
   return pokemonsSelecionados;
 };
 
-export const filtrarPorTipo = (tipoSelecionado) => {
+export const filtrarPorTipo = (tipoSelecionado, data) => {
   const tipoPokemon = tipoSelecionado.value;
 
-  const pokemonsSelecionados = pokemons.filter((pokemon) => {
+  const pokemonsSelecionados = data.filter((pokemon) => {
     const tipoFiltro = pokemon.type.filter((tipo) => {
       return tipo === tipoPokemon;
     });

@@ -18,6 +18,6 @@ const haunter = {
 const pokemons = [bulbasaur, pikachu, haunter]
 
 it ("deve filtrar pokemons por tipo", () =>{
-  const resultado = filtrarPorTipo(pokemons,["ghost"])
+  const resultado = filtrarPorTipo("ghost", pokemons)
   expect (resultado).toEqual([haunter])
 });

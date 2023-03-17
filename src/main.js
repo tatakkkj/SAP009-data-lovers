@@ -1,8 +1,7 @@
-import {ordenarPokemons,filtrarPorLetra,filtrarPorTipo} from './data.js';
+import {ordenarPokemons,filtrarPorLetra,filtrarPorTipo, calcular} from './data.js';
 import data from './data/pokemon/pokemon.js';
 
 const pokemons = data.pokemon;
-
 const dataPokemon = (data) => {
   document.querySelector('#paint-template').innerHTML = '';
   data.map((dataPokemon) => {
@@ -35,7 +34,6 @@ const dataforCharacter = (pokemon) => {
     </div>`;
   return template;
 }
-
 const sort = document.querySelector("#orderAz");
 
 sort.addEventListener('change', () => {
@@ -54,7 +52,11 @@ selecionarPorLetra.addEventListener('change', () => {
 const tipoPokemon = document.querySelector("#type-pokemon");
 
 tipoPokemon.addEventListener('change', () => {
-  const pokemonsSelecionados = filtrarPorTipo(tipoPokemon, pokemons);
+  const pokemonsSelecionados = filtrarPorTipo(tipoPokemon.value, pokemons);
+
+  const resultado = document.getElementById("total-pokemon");
+  const calcularTipo = calcular(pokemons.length, pokemonsSelecionados.length);
+  resultado.innerHTML = (`Foram encontrados ${pokemonsSelecionados.length} pokemons desse tipo, isso é equivale a ${calcularTipo}% do total.`);  
 
   dataPokemon(pokemonsSelecionados);
 });

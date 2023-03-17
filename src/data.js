@@ -36,11 +36,10 @@ export const filtrarPorLetra = (letraSelecionada, data) => {
 };
 
 export const filtrarPorTipo = (tipoSelecionado, data) => {
-  const tipoPokemon = tipoSelecionado.value;
 
   const pokemonsSelecionados = data.filter((pokemon) => {
     const tipoFiltro = pokemon.type.filter((tipo) => {
-      return tipo === tipoPokemon;
+      return tipo === tipoSelecionado;
     });
     if (tipoFiltro.length > 0) {
       return true;
@@ -48,4 +47,8 @@ export const filtrarPorTipo = (tipoSelecionado, data) => {
   });
   return pokemonsSelecionados;
 
+}
+
+export const calcular = (todos, selecionados) => {
+  return ((selecionados / todos * 100)).toFixed(2);
 }

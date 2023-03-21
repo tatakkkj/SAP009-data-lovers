@@ -37,7 +37,7 @@ const dataforCharacter = (pokemon) => {
 const sort = document.querySelector("#orderAz");
 
 sort.addEventListener('change', () => {
-  const pokemonsSelecionados = ordenarPokemons(sort, pokemons);
+  const pokemonsSelecionados = ordenarPokemons(sort.value, pokemons);
   dataPokemon(pokemonsSelecionados);
 });
 
@@ -45,7 +45,7 @@ sort.addEventListener('change', () => {
 const selecionarPorLetra = document.querySelector("#alphabetical-order");
 
 selecionarPorLetra.addEventListener('change', () => {
-  const pokemonsSelecionados = filtrarPorLetra(selecionarPorLetra, pokemons);
+  const pokemonsSelecionados = filtrarPorLetra(selecionarPorLetra.value, pokemons);
   dataPokemon(pokemonsSelecionados);
 });
 

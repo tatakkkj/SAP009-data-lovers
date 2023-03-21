@@ -1,5 +1,5 @@
 export const ordenarPokemons = (valorRecebido, data) => {
-  const tipoOrdenacao = valorRecebido.value;
+  const tipoOrdenacao = valorRecebido;
 
   if (tipoOrdenacao === 'az') {
     return data.sort((a, b) => {
@@ -25,10 +25,9 @@ export const ordenarPokemons = (valorRecebido, data) => {
 };
 
 export const filtrarPorLetra = (letraSelecionada, data) => {
-  const primeiraLetra = letraSelecionada.value;
 
   const pokemonsSelecionados = data.filter((pokemon) => {
-    if (pokemon.name[0] === primeiraLetra) {
+    if (pokemon.name[0] === letraSelecionada) {
       return pokemon;
     }
   });
@@ -49,6 +48,6 @@ export const filtrarPorTipo = (tipoSelecionado, data) => {
 
 }
 
-export const calcular = (todos, selecionados) => {
+export const calcular = (selecionados, todos) => {
   return ((selecionados / todos * 100)).toFixed(2);
 }

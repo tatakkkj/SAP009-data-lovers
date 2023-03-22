@@ -49,5 +49,5 @@ export const filtrarPorTipo = (tipoSelecionado, data) => {
 }
 
 export const calcular = (selecionados, todos) => {
-  return ((selecionados / todos * 100)).toFixed(2);
+  return (( todos / selecionados * 100)).toFixed(2);
 }

@@ -32,7 +32,7 @@ O objetivo do projeto é oferecer aos fãs da série, algumas informações sobr
 
 ## 3. Protótipo baixa qualidade
 
-![WhatsApp Image 2023-03-21 at 17 42 42](https://user-images.githubusercontent.com/120331438/226736135-22e53f80-b5a6-451f-96fe-d750686002b8.jpeg)
+![image](https://user-images.githubusercontent.com/120331438/226964766-4719b72e-e569-4dca-a4c2-c060a56be01d.png)
 
 
 ## 4. Protótipo alta qualidade

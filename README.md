@@ -37,6 +37,9 @@ O objetivo do projeto é oferecer aos fãs da série, algumas informações sobr
 
 ## 4. Protótipo alta qualidade
 
+![image](https://user-images.githubusercontent.com/120331438/226963649-698e1c7f-9bce-4afb-8110-c278fc550db1.png)
+
+
 ## 5. História de usuário
 
 Uma História de Usuário representa em linguagem simples o que o usuário faz, precisa e o por que, de maneira concisa. 

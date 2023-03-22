@@ -86,8 +86,8 @@ describe("deve mostrar a porcentagem daquele tipo de pokemon", () => {
   });
 
   it('Should return a calculation based on two numbers', () => {
-    expect(calcular(5,10)).toEqual("50.00");
-    expect(calcular(2,10)).toEqual("20.00");
+    expect(calcular(10,5)).toEqual("50.00");
+    expect(calcular(10,2)).toEqual("20.00");
   });
 });
 

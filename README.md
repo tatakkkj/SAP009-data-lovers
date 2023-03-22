@@ -56,7 +56,7 @@ Uma História de Usuário representa em linguagem simples o que o usuário faz, 
 
 Linguagens utilizadas: JavaScript | HTML5 | CSS3
 
-Programas/Plataformas utilizadas: VSCode (codificação) | Canva: (história de usuário) | Figma (protótipo de alta fidelidade) | Metro Retro (planejamento)
+Programas e plataformas utilizadas: VSCode (codificação) | Canva: (história de usuário) | Figma (protótipo de alta fidelidade) | Metro Retro (planejamento)
 
 ## 8. Contatos 
 

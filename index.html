@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<header>
+ 
+<section id="logo">
+<img src="./img/logoPokemon.png">
+</section>
+</header>
+
+<body>
+  <section id="audio">
+    <audio src="./music/mp3pokemon.mp3" autoplay controls loop>
+    </audio> 
+  </section>
+  
+  <section id="gif">
+    <img src="img/pokemonn.gif">
+
+  </section>
+
+  <center> <nav class="top-nav"> </nav>
+    <select id="orderAz" class="select-nav">
+      <option selected>Ordenar</option>
+      <option value="az">A a Z</option>
+      <option value="za">Z a A</option>
+    </select>
+
+    <select id="alphabetical-order" class="select-nav">
+      <option selected>Ordem Alfabética</option>
+      <option value="a">A</option>
+      <option value="b">B</option>
+      <option value="c">C</option>
+      <option value="d">D</option>
+      <option value="e">E</option>
+      <option value="f">F</option>
+      <option value="g">G</option>
+      <option value="h">H</option>
+      <option value="i">I</option>
+      <option value="j">J</option>
+      <option value="k">K</option>
+      <option value="l">L</option>
+      <option value="m">M</option>
+      <option value="n">N</option>
+      <option value="o">O</option>
+      <option value="p">P</option>
+      <option value="q">Q</option>
+      <option value="r">R</option>
+      <option value="s">S</option>
+      <option value="t">T</option>
+      <option value="u">U</option>
+      <option value="v">V</option>
+      <option value="w">W</option>
+      <option value="x">X</option>
+      <option value="y">Y</option>
+      <option value="z">Z</option>
+    </select> 
+
+    <select id="type-pokemon" class="select-nav">
+      <option value="type" selected>Tipos de Pokemon</option>
+      <option value="normal">Normal</option>
+      <option value="fire">Fogo</option>
+      <option value="water">Água</option>
+      <option value="electric">Elétrico</option>
+      <option value="grass">Grama</option>
+      <option value="ice">Gelo</option>
+      <option value="fighting">Lutador</option>
+      <option value="poison">Venenoso</option>
+      <option value="ground">Terra</option>
+      <option value="flying">Voador</option>
+      <option value="fairy">Fada</option>
+      <option value="psychic">Psiquico</option>
+      <option value="bug">Inseto</option>
+      <option value="rock">Pedra</option>
+      <option value="ghost">Fantasma</option>
+      <option value="dragon">Dragão</option>
+    </select> </center> 
+
+    <section><p class="resultado" id="total-pokemon"> </p></section> 
+
+    <section id="paint-template">
+    </section> 
+      <div id="root"></div>
+
+      <script src="src/data/pokemon/pokemon.js"></script>
+      <script src="main.js" type="module"></script>
+
+      <footer>
+        <h5> Desenvolvido por Tamires e Katia, 2023. © </h5>
+      </footer>
+</body>
+
+</html>

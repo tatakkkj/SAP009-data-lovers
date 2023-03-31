@@ -2,7 +2,7 @@
 
 Segundo projeto criado junto ao bootcamp da Laboratória, visando criar uma plataforma que exibisse um conjunto de dados, de acordo com a temática escolhida.
 
-[https://tatakkkj.github.io/SAP009-data-lovers/src/index.html ] Clique aqui e acesse nosso site.
+[link] Clique aqui e acesse nosso site.
 
 ## Índice
 

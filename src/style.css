@@ -9,12 +9,9 @@ body {
     background-attachment: fixed;
 }
 
-#logo {
-    height: 150px;
-    width: 100px;
-    text-align: center;
+header {
     display: flex;
-    margin: auto;
+    justify-content: center;
 }
 
 #gif {
